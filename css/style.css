@@ -9,3 +9,14 @@ header{
     height: 20rem;
     background-color: rgb(26, 188, 156);
 }
+
+    /*PORTFOLIO*/
+.custom-portfolio{
+    background-color: rgb(230, 43, 11);
+}
+.custom-col{
+    height: 6rem;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 20px;
+}
