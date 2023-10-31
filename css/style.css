@@ -9,7 +9,10 @@ header{
     height: 20rem;
     background-color: rgb(26, 188, 156);
 }
-
+.custom-col-header{
+    border: 2px solid white;
+    color: white;
+}
     /*PORTFOLIO*/
 /* .custom-portfolio{
     background-color: rgb(230, 43, 11);
