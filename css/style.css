@@ -1,0 +1,11 @@
+header{
+    height: 3rem;
+    background-color: rgb(44, 62, 80);
+}
+
+/*MAIN*/
+    /*JUMBOTRON*/
+.custom-jumbotron{
+    height: 20rem;
+    background-color: rgb(26, 188, 156);
+}
