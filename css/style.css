@@ -11,12 +11,29 @@ header{
 }
 
     /*PORTFOLIO*/
-.custom-portfolio{
+/* .custom-portfolio{
     background-color: rgb(230, 43, 11);
-}
+} */
 .custom-col{
-    height: 6rem;
+    height: 15rem;
+    border: 1rem solid white;
+    border-radius: 1.5rem;
+}
+.custom-col-1{
+    background-color: rgb(186, 75, 99);
+}
+.custom-col-2{
+    background-color: rgb(30, 164, 182);
+}
+.custom-col-3{
     background-color: black;
-    border: 2px solid white;
-    border-radius: 20px;
+}
+.custom-col-4{
+    background-color: rgb(28, 131, 193);
+}
+.custom-col-5{
+    background-color: rgb(14, 56, 181);
+}
+.custom-col-6{
+    background-color: rgb(204, 178, 163);
 }
