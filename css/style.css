@@ -49,6 +49,7 @@ main .custom-about .text-center h1{
 .custom-about{
     background-color: rgb(26, 188, 156);
     margin-bottom: 2rem;
+    padding-top: 2rem;
 }
 .custom-about button{
     margin-bottom: 1.3rem;
@@ -62,15 +63,23 @@ main .custom-about .text-center h1{
 .custom-about button i,
 .custom-about button p{
     color: white;
+    margin-bottom: 1rem;
 }
 .custom-container{
     padding: 0rem 3rem;
 }
 .custom-about .custom-container .custom-col-about{
     color: white;
-    padding-bottom: 1.3rem;
+    margin-bottom: 2.5rem;
     font-weight: 600;
 }
+
+    /*CONTACT ME*/
+
+
+
+
+
     /* CUSTOM TRY */
 .custom-try{
     border: 2px red solid;
