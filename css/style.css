@@ -96,6 +96,21 @@ main .custom-about .text-center h1{
     color: white;
     margin-bottom: 2rem;
 }
+    /* BOTTOM INFOS */
+.bottom-infos{
+    background-color: rgb(58, 84, 109);
+    padding: 2rem 3rem;
+}
+.bottom-infos .custom-container div{
+    color: white;
+}
+.bottom-infos .custom-container div h1{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.bottom-infos .custom-container div p{
+    font-size: 0.9rem;
+}
 
     /* CUSTOM TRY */
 .custom-try{
