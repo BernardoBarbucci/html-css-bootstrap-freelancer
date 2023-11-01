@@ -47,12 +47,30 @@ main .custom-about .text-center h1{
     margin-bottom: 2rem;
 }
 .custom-about{
-    height: 20rem;
     background-color: rgb(26, 188, 156);
     margin-bottom: 2rem;
 }
+.custom-about button{
+    margin-bottom: 1.3rem;
+    width: 12rem;
+    border: 1px solid white;
+    background-color: rgb(26, 188, 156);
+    height: 3rem;
+    border-radius: 1rem;
 
-
+} 
+.custom-about button i,
+.custom-about button p{
+    color: white;
+}
+.custom-container{
+    padding: 0rem 3rem;
+}
+.custom-about .custom-container .custom-col-about{
+    color: white;
+    padding-bottom: 1.3rem;
+    font-weight: 600;
+}
     /* CUSTOM TRY */
 .custom-try{
     border: 2px red solid;
