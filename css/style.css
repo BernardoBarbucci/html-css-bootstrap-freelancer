@@ -111,6 +111,18 @@ main .custom-about .text-center h1{
 .bottom-infos .custom-container div p{
     font-size: 0.9rem;
 }
+/* FOOTER */
+footer{
+    height: 4rem;
+    background-color: rgb(44, 62, 80);
+}
+footer div{
+    padding-top: 1.5rem;
+}
+footer div p{
+    font-size: 0.7rem;
+    color: white;
+}
 
     /* CUSTOM TRY */
 .custom-try{
