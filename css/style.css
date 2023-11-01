@@ -75,7 +75,10 @@ main .custom-about .text-center h1{
 }
 
     /*CONTACT ME*/
-
+.custom-list{
+    font-weight: 400;
+    font-size: 1rem;
+}
 
 
 
