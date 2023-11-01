@@ -48,7 +48,7 @@ main .custom-about .text-center h1{
 }
 .custom-about{
     background-color: rgb(26, 188, 156);
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     padding-top: 2rem;
 }
 .custom-about button{
@@ -79,9 +79,23 @@ main .custom-about .text-center h1{
     font-weight: 400;
     font-size: 1rem;
 }
-
-
-
+.contact-me .text-center h1{
+    font-weight: 600;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.custom-list p:last-of-type{
+    margin-bottom: 8rem;
+}
+.contact-me .custom-list button{
+    height: 2rem;
+    width: 3rem;
+    border: 1px solid transparent;
+    border-radius: 0.4rem;
+    background-color: rgb(26, 188, 156);
+    color: white;
+    margin-bottom: 2rem;
+}
 
     /* CUSTOM TRY */
 .custom-try{
