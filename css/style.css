@@ -151,4 +151,7 @@ footer div p{
     .custom-container-header{
         padding: 0rem 1.5rem;
     }
+    .bottom-infos .custom-container{
+        padding: 0 0;
+    }
 }
