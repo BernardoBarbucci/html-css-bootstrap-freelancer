@@ -1,7 +1,19 @@
 header{
-    height: 3rem;
     background-color: rgb(44, 62, 80);
 }
+.custom-col-header{
+    border: 2px solid white;
+    color: white;
+}
+.navbar h1{
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.navbar p{
+    font-weight: 600;
+    font-size: .8rem;
+}
+
 
 /*MAIN*/
     /*JUMBOTRON*/
@@ -10,14 +22,8 @@ header{
     background-color: rgb(26, 188, 156);
     margin-bottom: 2rem;
 }
-.custom-col-header{
-    border: 2px solid white;
-    color: white;
-}
+
     /*PORTFOLIO*/
-/* .custom-portfolio{
-    background-color: rgb(230, 43, 11);
-} */
 .custom-col{
     height: 15rem;
     border: 1rem solid white;
