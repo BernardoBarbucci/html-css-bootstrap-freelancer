@@ -1,3 +1,16 @@
+/* CONTAINERS */
+.custom-container{
+    padding: 0rem 3rem;
+}
+.custom-container-jumbo{
+    width: 70%;
+    height: 100%;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+
+/* HEADER */
 header{
     background-color: rgb(44, 62, 80);
 }
@@ -22,9 +35,12 @@ header{
 /*MAIN*/
     /*JUMBOTRON*/
 .custom-jumbotron{
-    height: 20rem;
+    height: 100%;
     background-color: rgb(26, 188, 156);
     margin-bottom: 2rem;
+}
+.jumbo-avatar{
+    width: 40%;
 }
 
     /*PORTFOLIO*/
@@ -74,9 +90,6 @@ main .custom-about .text-center h1{
 .custom-about button p{
     color: white;
     margin-bottom: 1rem;
-}
-.custom-container{
-    padding: 0rem 3rem;
 }
 .custom-about .custom-container .custom-col-about{
     color: white;
@@ -134,11 +147,18 @@ footer div p{
     color: white;
 }
 
+
+
+
+
     /* CUSTOM TRY */
 .custom-try{
     border: 2px red solid;
     background-color: rgb(0, 174, 243);
 }
+
+
+
 
 
 /* MEDIA QUERIES */
