@@ -3,10 +3,11 @@
     padding: 0rem 3rem;
 }
 .custom-container-jumbo{
-    width: 70%;
+    width: 80%;
     height: 100%;
     border: 1px solid black;
     margin: 0 auto;
+    padding-top: 2rem;
 }
 
 
@@ -42,6 +43,21 @@ header{
 .jumbo-avatar{
     width: 40%;
 }
+.custom-container-jumbo img{
+    max-width: 15rem;
+}
+.custom-container-jumbo h1{
+    font-weight: 600;
+}
+.custom-container-jumbo h2{
+    margin-bottom: 1.3rem;
+}
+.custom-container-jumbo h3{
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+
 
     /*PORTFOLIO*/
 .custom-col{
@@ -173,5 +189,9 @@ footer div p{
     }
     .bottom-infos .custom-container{
         padding: 0 0;
+    }
+    .custom-container-jumbo h3{
+        font-size: .7rem;
+        margin-bottom: 1.5rem;
     }
 }
