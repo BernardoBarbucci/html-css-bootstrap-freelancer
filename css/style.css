@@ -2,18 +2,22 @@ header{
     background-color: rgb(44, 62, 80);
 }
 .custom-col-header{
-    border: 2px solid white;
     color: white;
 }
 .navbar h1{
-    font-size: 1.3rem;
-    font-weight: 700;
+    font-weight: 600;
+    font-size: 1.6rem;
 }
 .navbar p{
     font-weight: 600;
-    font-size: .8rem;
 }
-
+.navbar button{
+    border: 1px solid rgb(138, 147, 157);
+    color: rgb(138, 147, 157);
+    background-color: transparent;
+    border-radius: .3rem;
+    width: 2rem;
+}
 
 /*MAIN*/
     /*JUMBOTRON*/
@@ -134,4 +138,17 @@ footer div p{
 .custom-try{
     border: 2px red solid;
     background-color: rgb(0, 174, 243);
+}
+
+
+/* MEDIA QUERIES */
+
+    /* MOBILE */
+@media screen and (max-width: 576px) {
+    .navbar h1 {
+        font-size: 1.1rem;
+    }
+    .custom-container-header{
+        padding: 0rem 1.5rem;
+    }
 }
