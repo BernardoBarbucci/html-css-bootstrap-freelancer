@@ -100,7 +100,6 @@ header{
     background-color: black;
 }
 
-
     /* ABOUT */
 main .custom-about .text-center h1{
     margin-bottom: 1rem;
@@ -117,12 +116,11 @@ main .custom-about .text-center h1{
     background-color: rgb(26, 188, 156);
     height: 3rem;
     border-radius: 1rem;
-
 } 
 .custom-about button i,
 .custom-about button{
     color: white;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 .custom-about .custom-container .custom-col-about{
@@ -131,7 +129,7 @@ main .custom-about .text-center h1{
     font-weight: 600;
 }
 .custom-download{
-    margin-right: .25rem;
+    margin-right: .5rem;
 }
     /*CONTACT ME*/
 .custom-list{
@@ -164,11 +162,13 @@ main .custom-about .text-center h1{
     color: white;
 }
 .bottom-infos .custom-container div h1{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 600;
+    margin-bottom: 1.3rem;
 }
 .bottom-infos .custom-container div p{
-    font-size: 0.9rem;
+    font-size: 1rem;
+    padding-bottom: 1rem;
 }
 /* FOOTER */
 footer{
@@ -182,21 +182,16 @@ footer div p{
     font-size: 0.7rem;
     color: white;
 }
-
-
-
-
-
-    /* CUSTOM TRY */
-.custom-try{
-    border: 2px red solid;
-    background-color: rgb(0, 174, 243);
+.icons{
+    margin: 0 auto;
 }
-
-
-
-
-
+.custom-icon{
+    border: 2px solid white;
+    border-radius: 100px;
+    width: 1.8rem;
+    display: inline-block;
+    text-align: center;
+}
 /* MEDIA QUERIES */
 
     /* MOBILE */
