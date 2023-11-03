@@ -103,7 +103,7 @@ header{
 
     /* ABOUT */
 main .custom-about .text-center h1{
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 .custom-about{
     background-color: rgb(26, 188, 156);
@@ -111,7 +111,7 @@ main .custom-about .text-center h1{
     padding-top: 2rem;
 }
 .custom-about button{
-    margin-bottom: 1.3rem;
+    font-size: 1.3rem;
     width: 12rem;
     border: 1px solid white;
     background-color: rgb(26, 188, 156);
@@ -120,16 +120,19 @@ main .custom-about .text-center h1{
 
 } 
 .custom-about button i,
-.custom-about button p{
+.custom-about button{
     color: white;
     margin-bottom: 1rem;
 }
+
 .custom-about .custom-container .custom-col-about{
     color: white;
     margin-bottom: 2.5rem;
     font-weight: 600;
 }
-
+.custom-download{
+    margin-right: .25rem;
+}
     /*CONTACT ME*/
 .custom-list{
     font-weight: 400;
