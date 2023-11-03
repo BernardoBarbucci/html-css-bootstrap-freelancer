@@ -56,7 +56,7 @@ header{
 .custom-container-jumbo h3{
     font-size: 1rem;
     margin-bottom: 3rem;
-    padding-bottom: 1.5rem;
+    padding-bottom: 3rem;
 }
 .custom-starline::before,
 .custom-starline::after{
@@ -71,9 +71,6 @@ header{
     margin-left: 1rem;
     margin-right: 1rem;
 }
-
-
-
 
     /*PORTFOLIO*/
 .custom-col{
@@ -96,7 +93,13 @@ header{
 }
 .custom-col-6{
     border-radius: 1rem;
+    margin-bottom: 3rem;
 }
+.text-black .custom-starline::before,
+.text-black .custom-starline::after{
+    background-color: black;
+}
+
 
     /* ABOUT */
 main .custom-about .text-center h1{
