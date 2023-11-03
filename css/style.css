@@ -5,8 +5,8 @@
 .custom-container-jumbo{
     width: 80%;
     height: 100%;
-    border: 1px solid black;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 2rem;
 }
 
@@ -48,40 +48,54 @@ header{
 }
 .custom-container-jumbo h1{
     font-weight: 600;
+    margin-bottom: 2rem;
 }
 .custom-container-jumbo h2{
-    margin-bottom: 1.3rem;
+    margin-bottom: 2rem;
 }
 .custom-container-jumbo h3{
     font-size: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
+    padding-bottom: 1.5rem;
 }
+.custom-starline::before,
+.custom-starline::after{
+    content: '';
+    display: inline-block;
+    height: 3px;
+    width: 15%;
+    max-width: 105px;
+    border-radius: 10px;
+    vertical-align: middle;
+    background-color: white;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
 
 
 
     /*PORTFOLIO*/
 .custom-col{
-    height: 15rem;
     border: 1rem solid white;
-    border-radius: 1.5rem;
 }
 .custom-col-1{
-    background-color: rgb(186, 75, 99);
+    border-radius: 1rem;
 }
 .custom-col-2{
-    background-color: rgb(30, 164, 182);
+    border-radius: 1rem;
 }
 .custom-col-3{
-    background-color: black;
+    border-radius: 1rem;
 }
 .custom-col-4{
-    background-color: rgb(28, 131, 193);
+    border-radius: 1rem;
 }
 .custom-col-5{
-    background-color: rgb(14, 56, 181);
+    border-radius: 1rem;
 }
 .custom-col-6{
-    background-color: rgb(204, 178, 163);
+    border-radius: 1rem;
 }
 
     /* ABOUT */
